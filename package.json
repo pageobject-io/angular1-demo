@@ -1,0 +1,18 @@
+{
+  "name": "angular1-demo",
+  "version": "1.0.0",
+  "description": "Demonstration of Angular 1 end to end testing",
+  "scripts": {
+    "lite": "lite-server",
+    "e2e": "protractor protractor.conf.js"
+  },
+  "dependencies": {
+    "angular": "1.5.9",
+    "bootstrap": "3.3.7"
+  },
+  "devDependencies": {
+    "chromedriver": "2.24.1",
+    "lite-server": "2.2.0",
+    "protractor": "3.2.2"
+  }
+}
