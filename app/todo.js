@@ -6,8 +6,8 @@ angular.module('todoApp', [])
       {text: 'build an angular app', done: false}];
 
     todoList.addTodo = function () {
-      todoList.todos.push({text: todoList.todoText, done: false});
-      todoList.todoText = '';
+      todoList.todos.push({text: todoList.newTodo, done: false});
+      todoList.newTodo = '';
     };
 
     todoList.remaining = function () {
