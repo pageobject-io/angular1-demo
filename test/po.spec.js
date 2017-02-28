@@ -1,4 +1,4 @@
-var page = require('./e2e.page.js');
+var page = require('./todo.po.js');
 
 describe('todo list with page object', function() {
   it('should add a todo with po', function() {

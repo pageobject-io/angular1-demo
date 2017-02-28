@@ -1,5 +1,3 @@
-var page = require('./e2e.page.js');
-
 describe('todo list without page object', function() {
   it('should add a todo', function() {
     browser.get('http://localhost:3000');
